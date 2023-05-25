@@ -1,0 +1,13 @@
+import streamlit as st
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib as plt
+import os
+
+import pandas_profiling
+from streamlit_pandas_profiling import st_profile_report
+
+import pycaret
+from pycaret.classification import setup, compare_models, pull, save_model, ClassificationExperiment
+from pycaret.regression import setup, compare_models, pull, save_model, RegressionExperiment
