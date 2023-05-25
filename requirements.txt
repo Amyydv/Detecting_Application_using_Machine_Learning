@@ -5,8 +5,8 @@ seaborn
 matplotlib 
 
 pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
+streamlit_pandas_profiling  st_profile_report
 
 pycaret
-from pycaret.classification import setup, compare_models, pull, save_model, ClassificationExperiment
-from pycaret.regression import setup, compare_models, pull, save_model, RegressionExperiment
+pycaret.classification  setup, compare_models, pull, save_model, ClassificationExperiment
+ pycaret.regression import setup, compare_models, pull, save_model, RegressionExperiment
