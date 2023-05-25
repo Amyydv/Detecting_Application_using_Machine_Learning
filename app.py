@@ -19,12 +19,12 @@ if os.path.exists("sourcev.csv"):
 
 with st.sidebar:
     st.header("Welcome to the Application!")
-    st.caption("Select the options to work on the dataset. The uploded dataset can be analysed by using 'Analysis' button.\n To train the model, choose the area you want to work on i.e., Classification & Regression. \n You can download the model (.pkl) file using 'Download' button. ")
+    st.info("Select the options to work on the dataset. The uploded dataset can be analysed by using 'Analysis' button.\n To train the model, choose the area you want to work on i.e., Classification & Regression. \n You can download the model (.pkl) file using 'Download' button. ")
     st.caption("Do try it out!")
     choose=st.radio(":computer:",["Dataset","Analysis","Training","Download"])
     
 if choose=="Dataset":
-    st.caption("This Application is based on a Machine learning model. This application is used for reading data and exploring the data, and analyzing the data. This application can be read only(CSV files).")
+    st.caption("This model is based on the backdrop of classification and Regression alogithum of machine learning. It helps in analysing and exploring your dataset in a smart way.  Note:- please upload only csv files here! cheers. 😜 ")
     st.write("Please upload your dataset here. Only .csv files allowed!")
     dataset_value = st.file_uploader("Upload here")
     
