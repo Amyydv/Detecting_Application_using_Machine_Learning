@@ -3,3 +3,4 @@ pandas
 streamlit_pandas_profiling
 pycaret
 pandas_profiling
+numpy
