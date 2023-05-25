@@ -24,7 +24,7 @@ with st.sidebar:
     choose=st.radio(":computer:",["Dataset","Analysis","Training","Download"])
     
 if choose=="Dataset":
-    st.caption("This Application is made for detecting machine learning based on the dataset uploaded by the user. \n You can upload the dataset (only .csv files allowed) by clicking on 'Browse Files' button.")
+    st.caption("This Application is based on a Machine learning model. This application is used for reading data and exploring the data, and analyzing the data. This application can be read only(CSV files).")
     st.write("Please upload your dataset here. Only .csv files allowed!")
     dataset_value = st.file_uploader("Upload here")
     
