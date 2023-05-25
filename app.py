@@ -24,7 +24,7 @@ with st.sidebar:
     choose=st.radio(":computer:",["Dataset","Analysis","Training","Download"])
     
 if choose=="Dataset":
-    st.caption("This model is based on the backdrop of classification and Regression alogithum of machine learning. It helps in analysing and exploring your dataset in a smart way.  Note:- please upload only csv files here! cheers. 😜 ")
+    st.caption("This model is based on the backdrop of classification and Regression alogithum of machine learning. It helps in analysing and exploring your dataset in a smart way. cheers. 😜 ")
     st.write("Please upload your dataset here. Only .csv files allowed!")
     dataset_value = st.file_uploader("Upload here")
     
